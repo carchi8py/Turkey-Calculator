@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279821B61BB26A9E009CFE09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279821B51BB26A9E009CFE09 /* AppDelegate.swift */; };
+		279821B81BB26A9E009CFE09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279821B71BB26A9E009CFE09 /* ViewController.swift */; };
+		279821BB1BB26A9E009CFE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279821B91BB26A9E009CFE09 /* Main.storyboard */; };
+		279821BD1BB26A9E009CFE09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279821BC1BB26A9E009CFE09 /* Images.xcassets */; };
+		279821C01BB26A9E009CFE09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279821BE1BB26A9E009CFE09 /* LaunchScreen.xib */; };
+		279821CC1BB26A9E009CFE09 /* Turkey_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279821CB1BB26A9E009CFE09 /* Turkey_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279821C61BB26A9E009CFE09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279821A81BB26A9E009CFE09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279821AF1BB26A9E009CFE09;
+			remoteInfo = "Turkey Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279821B01BB26A9E009CFE09 /* Turkey Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turkey Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279821B41BB26A9E009CFE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279821B51BB26A9E009CFE09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		279821B71BB26A9E009CFE09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		279821BA1BB26A9E009CFE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279821BC1BB26A9E009CFE09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		279821BF1BB26A9E009CFE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		279821C51BB26A9E009CFE09 /* Turkey CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turkey CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279821CA1BB26A9E009CFE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279821CB1BB26A9E009CFE09 /* Turkey_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turkey_CalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279821AD1BB26A9E009CFE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279821C21BB26A9E009CFE09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279821A71BB26A9E009CFE09 = {
+			isa = PBXGroup;
+			children = (
+				279821B21BB26A9E009CFE09 /* Turkey Calculator */,
+				279821C81BB26A9E009CFE09 /* Turkey CalculatorTests */,
+				279821B11BB26A9E009CFE09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279821B11BB26A9E009CFE09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279821B01BB26A9E009CFE09 /* Turkey Calculator.app */,
+				279821C51BB26A9E009CFE09 /* Turkey CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279821B21BB26A9E009CFE09 /* Turkey Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				279821B51BB26A9E009CFE09 /* AppDelegate.swift */,
+				279821B71BB26A9E009CFE09 /* ViewController.swift */,
+				279821B91BB26A9E009CFE09 /* Main.storyboard */,
+				279821BC1BB26A9E009CFE09 /* Images.xcassets */,
+				279821BE1BB26A9E009CFE09 /* LaunchScreen.xib */,
+				279821B31BB26A9E009CFE09 /* Supporting Files */,
+			);
+			path = "Turkey Calculator";
+			sourceTree = "<group>";
+		};
+		279821B31BB26A9E009CFE09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279821B41BB26A9E009CFE09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279821C81BB26A9E009CFE09 /* Turkey CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				279821CB1BB26A9E009CFE09 /* Turkey_CalculatorTests.swift */,
+				279821C91BB26A9E009CFE09 /* Supporting Files */,
+			);
+			path = "Turkey CalculatorTests";
+			sourceTree = "<group>";
+		};
+		279821C91BB26A9E009CFE09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279821CA1BB26A9E009CFE09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279821AF1BB26A9E009CFE09 /* Turkey Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279821CF1BB26A9E009CFE09 /* Build configuration list for PBXNativeTarget "Turkey Calculator" */;
+			buildPhases = (
+				279821AC1BB26A9E009CFE09 /* Sources */,
+				279821AD1BB26A9E009CFE09 /* Frameworks */,
+				279821AE1BB26A9E009CFE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turkey Calculator";
+			productName = "Turkey Calculator";
+			productReference = 279821B01BB26A9E009CFE09 /* Turkey Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279821C41BB26A9E009CFE09 /* Turkey CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279821D21BB26A9E009CFE09 /* Build configuration list for PBXNativeTarget "Turkey CalculatorTests" */;
+			buildPhases = (
+				279821C11BB26A9E009CFE09 /* Sources */,
+				279821C21BB26A9E009CFE09 /* Frameworks */,
+				279821C31BB26A9E009CFE09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279821C71BB26A9E009CFE09 /* PBXTargetDependency */,
+			);
+			name = "Turkey CalculatorTests";
+			productName = "Turkey CalculatorTests";
+			productReference = 279821C51BB26A9E009CFE09 /* Turkey CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279821A81BB26A9E009CFE09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Chris Archibald";
+				TargetAttributes = {
+					279821AF1BB26A9E009CFE09 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					279821C41BB26A9E009CFE09 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 279821AF1BB26A9E009CFE09;
+					};
+				};
+			};
+			buildConfigurationList = 279821AB1BB26A9E009CFE09 /* Build configuration list for PBXProject "Turkey Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 279821A71BB26A9E009CFE09;
+			productRefGroup = 279821B11BB26A9E009CFE09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279821AF1BB26A9E009CFE09 /* Turkey Calculator */,
+				279821C41BB26A9E009CFE09 /* Turkey CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279821AE1BB26A9E009CFE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279821BB1BB26A9E009CFE09 /* Main.storyboard in Resources */,
+				279821C01BB26A9E009CFE09 /* LaunchScreen.xib in Resources */,
+				279821BD1BB26A9E009CFE09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279821C31BB26A9E009CFE09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279821AC1BB26A9E009CFE09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279821B81BB26A9E009CFE09 /* ViewController.swift in Sources */,
+				279821B61BB26A9E009CFE09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279821C11BB26A9E009CFE09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279821CC1BB26A9E009CFE09 /* Turkey_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279821C71BB26A9E009CFE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279821AF1BB26A9E009CFE09 /* Turkey Calculator */;
+			targetProxy = 279821C61BB26A9E009CFE09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279821B91BB26A9E009CFE09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279821BA1BB26A9E009CFE09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279821BE1BB26A9E009CFE09 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279821BF1BB26A9E009CFE09 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279821CD1BB26A9E009CFE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279821CE1BB26A9E009CFE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279821D01BB26A9E009CFE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turkey Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		279821D11BB26A9E009CFE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turkey Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		279821D31BB26A9E009CFE09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turkey CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turkey Calculator.app/Turkey Calculator";
+			};
+			name = Debug;
+		};
+		279821D41BB26A9E009CFE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turkey CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turkey Calculator.app/Turkey Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279821AB1BB26A9E009CFE09 /* Build configuration list for PBXProject "Turkey Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279821CD1BB26A9E009CFE09 /* Debug */,
+				279821CE1BB26A9E009CFE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279821CF1BB26A9E009CFE09 /* Build configuration list for PBXNativeTarget "Turkey Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279821D01BB26A9E009CFE09 /* Debug */,
+				279821D11BB26A9E009CFE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		279821D21BB26A9E009CFE09 /* Build configuration list for PBXNativeTarget "Turkey CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279821D31BB26A9E009CFE09 /* Debug */,
+				279821D41BB26A9E009CFE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279821A81BB26A9E009CFE09 /* Project object */;
+}
