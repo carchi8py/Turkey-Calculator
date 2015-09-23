@@ -50,7 +50,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twm-Mv-PiG">
                                 <rect key="frame" x="184" y="75" width="400" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FSJ-Ho-KbN">
                                 <rect key="frame" x="156" y="212" width="388" height="30"/>
@@ -67,6 +67,9 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kvw-1M-v2U"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6tU-l4-PuV">
                                 <rect key="frame" x="156" y="163" width="388" height="30"/>
@@ -106,6 +109,12 @@
                             <constraint firstAttribute="centerX" secondItem="06I-4p-5wq" secondAttribute="centerX" id="zhV-IA-s6X"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cookTextField" destination="eq3-nB-SOV" id="ABm-DD-BYl"/>
+                        <outlet property="peopleTextField" destination="twm-Mv-PiG" id="mhA-6F-7VC"/>
+                        <outlet property="sizeTextField" destination="6tU-l4-PuV" id="1vx-PO-Fr8"/>
+                        <outlet property="thawTextField" destination="FSJ-Ho-KbN" id="ve8-E3-W13"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

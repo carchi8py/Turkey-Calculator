@@ -10,8 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var peopleTextField: UITextField!
+    @IBOutlet weak var sizeTextField: UITextField!
+    @IBOutlet weak var thawTextField: UITextField!
+    @IBOutlet weak var cookTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sizeTextField.backgroundColor = UIColor.lightGrayColor()
+        thawTextField.backgroundColor = UIColor.lightGrayColor()
+        cookTextField.backgroundColor = UIColor.lightGrayColor()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +29,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func calculatePressed(sender: AnyObject) {
+    }
 
 }
 
