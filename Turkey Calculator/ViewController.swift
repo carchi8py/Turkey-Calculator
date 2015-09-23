@@ -30,7 +30,29 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculatePressed(sender: AnyObject) {
+        if !peopleTextField.text.isEmpty {
+            if let people = peopleTextField.text.toInt() {
+                var poundTurkey = turkeyPoundToBuy(people)
+                sizeTextField.text = "\(poundTurkey) lbs"
+                var thaw = thawTime(poundTurkey)
+                thawTextField.text = "\(thaw) hours"
+                let (h,m,s) = cookTime(poundTurkey)
+                cookTextField.text = "\(h):\(m) Hours"
+            }
+        }
     }
 
 }
 
+func turkeyPoundToBuy(people: Int) -> Double{
+    return Double(people) * 1.5
+}
+
+func thawTime(pounds: Double) -> Double {
+    return (pounds/4) * 24
+}
+
+func cookTime(pounds: Double) -> (Int, Int, Int) {
+    var seconds = Int(pounds * 15)*60
+    return (seconds / 3600, (seconds%3600) / 60, (seconds%3600)%60)
+}
